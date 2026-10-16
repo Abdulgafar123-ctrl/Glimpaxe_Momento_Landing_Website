@@ -34,6 +34,8 @@ form.addEventListener("submit", (e) => {
     d.get("phone")
   )}%0AEvent: ${encodeURIComponent(
     d.get("event")
+  )}%0AWhere Did You See Our Advert?: ${encodeURIComponent(
+    d.get("delivery")
   )}%0AEvent date: ${encodeURIComponent(
     d.get("date") || "Not specified"
   )}%0AQuantity: ${encodeURIComponent(
